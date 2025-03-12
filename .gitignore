@@ -1,4 +1,6 @@
-data/
+data/*
 !data/215379/
+
 .DS_Store
 .idea/
+venv/

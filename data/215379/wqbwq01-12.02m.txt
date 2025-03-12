@@ -1,0 +1,1360 @@
+Waquoit Bay (WQB) National Estuarine Research Reserve Water Quality Metadata 
+January 2002-December 2002
+Latest Update: July 01, 2021
+
+I.  Data Set & Research Descriptors
+
+1)	Principal investigator & contact persons:
+
+Address: 		Waquoit Bay NERR
+			PO Box 3092
+			149 Waquoit Highway
+			Waquoit, MA	      02536
+			(508)-457-0495
+			Email: waquoit.bay@state.ma.us 
+Contact persons:
+			Dr. Christopher Weidman, Research Coordinator
+				Email: cweidman23@yahoo.com; (508)-457-0495 ext.105
+			Kelly Chapman, Research Assistant
+				Email: kelly.chapman@state.ma.us; (508)-457-0495 ext.109
+
+2)	Entry verification:
+
+		The data are uploaded in three file formats (each to separate files 
+identified with the same file name but with unique extensions) from the YSI 6000 
+and 6600 data loggers to a PC with the YSI 6000 and 6600 EcoWatch software.  Two 
+of these (PC6000 and ASCII text formats) are kept on file in the WBNERR archive.  
+The comma delimited format data file (.csv) is imported to the EXCEL spreadsheet 
+program (version 5.0) where it is processed according to standard NERRS CDMO 
+protocol using the CDMO Excel 5.0 macros.  File size of one complete month of 
+data each has been achieved by concatenating (and truncating if necessary) 
+shorter files of interrupted data segments.  File contents initially are 
+examined for anomalies (e.g., sensor malfunction, battery failure, spurious 
+values, etc.) by visualization of data with the Ecowatch Software provided by 
+YSI.  The data is also graphed using the Excel program for each two-week 
+deployment of raw data. Data requiring editing are noted and copies of the 
+graphs of raw data are saved at WBNERR.  Data editing to CDMO protocol is 
+conducted in Excel.  Missing data (data logger malfunction or maintenance 
+periods) are represented by periods (".").  Outliers (data values not within the 
+design range of the respective sensors except for turbidity and depth) are 
+changed to periods.  Data values recorded during deployment or retrieval (i.e., 
+when the instrument was out of the water or in the laboratory) are deleted or 
+replaced with periods.  A record of changes is documented in the Data Anomalies 
+section of the metadata file. The monthly files are sent electronically by FTP 
+to CDMO.  
+		The CDMO cdmomac3.xls will allow the user to automatically format 
+column widths to the correct number of decimal places based on YSI sensor 
+specifications.  It also allows the user to QA/QC each data logger generated 
+file for missing data points, fill all cells that do not contain data with 
+periods, and find all data points that fall outside the range of what the data 
+logger is designed to measure (i.e. outliers).  The CDMO import.xls macro will 
+allow PC users with 30-minute data to automatically create a monthly Excel 
+file from a two-week deployment and insert periods for missing data.  In 
+addition, in November 1999 a graphing capability was added to this macro 
+allowing users to produce single parameter and missing data point graphs on a 
+monthly basis.  Copies of all files are retained at the Reserve.  During 
+Deployment Year 2002, the Research Assistant, Kelly Chapman, performed all 
+instrument calibration and maintenance and data management.
+
+3)	Research objectives:
+
+For the NERR System-Wide Monitoring Program (SWMP), the YSI data loggers are 
+programmed to record water quality parameters every 30 minutes. A total of four 
+SWMP sites were located in the Waquoit Bay estuarine system during 2002. These 
+four are: 1) Metoxit Point (MP), which is the oldest actively monitored site 
+(since 1998), is located in the middle of Waquoit Bay's main basin; 2) 
+Menauhant (MH), in operation since March 2001, is located adjacent to Eel Pond 
+Inlet on Vineyard Sound - one of the two tidal inlets into the Waquoit Bay 
+estuary; 3) Child's River (CR), in operation since May 2002, located near the 
+head of the tidal section of Child's River- one of the two main surface fresh 
+water sources to Waquoit Bay; and 4) Sage Lot (SL), in operation since May 2002, 
+located in Sage Lot Pond-a relatively pristine tidal pond surrounded by salt 
+marsh and barrier beach, possessing one of the bay's few remaining eelgrass 
+stands.  The main purpose of water quality monitoring program is to aid Waquoit 
+Bay NERR in one of its priority missions: to perform as a living laboratory and 
+platform for coastal and estuarine research. The long term, continuous detailed 
+monitoring of the estuary's basic hydrophysical parameters is an essential tool 
+and context for any research activities located here. Besides this overarching 
+mission, there are also several specific research interests.  One primary issue 
+for the Waquoit Bay ecosystem is the influence of anthropogenic induced 
+alterations by nitrogen enrichment.  Waquoit Bay receives nitrogen from several 
+sources, such as septic systems (their leachate percolates into groundwater 
+which then enters the bay), run off from roads, run off containing domestic and 
+agricultural fertilizer and animal waste, and atmospheric sources. This elevated 
+nitrogen loading to the bay has resulted in enhanced eutrophication that has 
+contributed to the alteration of the bay's habitats.  For example, thick mats of 
+seaweeds (macroaglae) now cover the bottom where eelgrass meadows thrived in the 
+1970's.  Unfortunately, there are few definitive records of the bay's water 
+quality conditions during that period, which makes it difficult to evaluate the 
+rates of change.  To facilitate future evaluation, long-term records from SWMP 
+can be used to track water column conditions.  Of particular interest, in this 
+regard are measurements of dissolved oxygen (DO), turbidity, dissolved nitrogen 
+and chlorophyll concentration.  Such records will facilitate evaluation of 
+changes which may come about from a continuation of watershed alteration that 
+result from current development patterns  (i.e., non-sewered residential areas 
+served by private septic systems typically consisting of septic tanks and leach 
+fields) as well as non-industrial commercial development, such as golf courses, 
+cranberry bogs, and retail shopping outlets.  The records will be useful for 
+evaluating the efficacy of remediation efforts intended to reduce the nitrogen 
+loading from these sources to Waquoit Bay.
+		Another focus of long-term research interest is the detection of 
+climate change and the determination of its effects on the estuarine 
+environment.  Characterizing the variability of the various water column 
+parameters, such as their scale, magnitude and frequency, is likely to be an 
+important aspect of the estuarine ecosystem that may be sensitive to climate 
+change. Related to this focus is an interest in the impact of storms 
+(hurricanes and northeasters) and other extreme meteorological events on the 
+estuary. For example, what temperature and wind field thresholds exist that 
+might bring about or trigger certain conditions within the bay?  The 
+observations recorded by the SWMP will allow for these types of studies.      
+
+4)	Research methods:
+
+YSI 6000 and 6600 series sondes are deployed at each permanent water quality 
+monitoring station at the Waquoit Bay Reserve. Since in-situ instrumentation can 
+only record conditions at a specific location, permanent monitoring stations for 
+SWMP are chosen to be in some way representative of the overall estuary. 
+This is difficult in practice since estuaries by their very definition are 
+coastal regions where large physical, chemical and biological variations tend to 
+occur in space and time, so that often no particular location within the system 
+is "typical" of the overall system. Establishing a number of stations can 
+overcome this problem somewhat, and as of 2002 we have established four 
+permanent stations in the Waquoit Bay estuaries. This represents a doubling over 
+the previous year. Our current SWMP stations are situated so as to be as 
+representative as much as possible of the estuary and its inputs/outputs. 
+Additional details concerning the station characteristics are discussed in the 
+next section. 
+		The YSI sondes measure and record ambient water temperature, 
+specific conductivity (and calculate salinity), dissolved oxygen (mg/L and % 
+saturated), turbidity (NTU), water level (m), and pH at 30 minute intervals 
+during deployment periods extending for approximately two weeks. Note that the 
+pressure sensors we currently use are unvented and so variations in atmospheric 
+pressure are recorded as changes in water depth (atmospheric data are available 
+from our SWMP meteorological station (as of 12/2001) and so it is possible to 
+make this correction to the depth data, for increased accuracy. Also, at our 
+Metoxit Point site, since 12/2000, we have been using a YSI chlorophyll 6025 
+sensor and these data are available by contacting us directly at the reserve 
+(and included in the raw files for this year's SWMP data set for CDMO).
+		Sondes are deployed and retrieved approximately every two weeks. The 
+"old" sonde is retrieved and a "new" replacement sonde is deployed immediately 
+so that ideally no record gap occurs. The two week deployment duration is 
+constrained by a combination of battery life (shorter life in colder waters) and 
+fouling of the DO sensor (and other sensors to a lesser degree) during the warm 
+summer months. Prior to deployment (within 24 hrs), each instrument is checked 
+and its sensors re-calibrated using standard YSI (Operating Manual) protocols. 
+Similarly, after a deployment, each sonde is brought back to the laboratory for 
+a post-deployment check, data downloading, instrument and sensor cleaning. 
+Salinity sensors are calibrated with reference seawater that had been previously 
+analyzed with a Guildline salinometer at the Woods Hole Oceanographic 
+Institution (David Wellwood is the technician for this instrument).  pH sensors 
+are calibrated with 7.0 and 10.0 pH standard solutions (2-point calibrations). 
+The turbidity standard used was Hach 100 NTU, and distilled water (DI) for 0 
+NTU. Temperature sensors were not calibrated.  Oxygen sensor membranes were 
+inspected before and after each deployment.  Oxygen sensor membranes were 
+replaced 24 hours prior to each deployment when the sensor seemed to need 
+reconditioning. Final DO calibration was not done until the membrane had been in 
+place for at least 8 hours. As another check on instrument performance, in-situ 
+measurements of air and water temperature, DO, salinity, water temperature, and 
+pH are made using a hand-held YSI 650 at deployment/retrieval times. In 2002, 
+SWMP data were collected at the Metoxit Point and Menauhant sites from January 1 
+through December 31, 2002. No significant ice-over conditions occurred during 
+the winter/spring of 2002. The two new sites, Child's River and Sage Lot, went 
+on line in May 2002 as part of a NERRS-wide SWMP expansion, and continued 
+operation into December. The Sage Lot site was shut-down in mid-December 2002 
+due to ice-over in Sage Lot Pond exceeding 4" in thickness.  Two types of 
+mooring silos are used to hold the sondes. The Metoxit Point and Sage Lot 
+stations are located offshore and away from shore structures. The sonde moorings 
+for these stations consist of a vertical PVC pipe tower (2" ID), about 1.5 
+meters in height) extending from a 120 lb cast concrete base resting on the 
+bottom. Attached to this tower is a 0.7 m PVC pipe section (4" ID), referred to 
+as the silo, that holds the sonde and is adjustable for setting the depth of the 
+sensor package. The sondes are lowered and inserted into the 4" PVC silo from 
+the surface at low water, when the top of the tower is only about 0.3 m below 
+the surface. The lower part of the silo section is perforated with numerous 1.5" 
+holes to allow the YSI sonde's sensors direct exposure to the flow of ambient 
+waters. The Metoxit Pointand Sage Lot silos are set so that the sensor package 
+is 0.7 m and 0.5 off the bottom, respectively.  This ensures that the sensors 
+are above the macro algal mats in the case of Metoxit Point, and sufficiently 
+into the water column because of the thick eelgrass meadow in Sage Lot. The 
+Menauhant and Child's River stations are shore-side locations and their moorings 
+are a more typical type of silo - a single PVC section (4" ID) mounted 
+vertically on a pier piling. The Menauhant site, located at a yacht club dock, 
+is adjacent to a tidal inlet, and the Child's River site, located at commercial 
+marina and boat yard, is adjacent to the upper reaches of a tidal river.  The 
+base of the these silos are also ventilated with large holes (1.5" diameter) and 
+their sensor packages (bottom of the sonde) are both mounted about 0.4 m off the 
+bottom.   All mooring silos are painted with antifouling paint at the beginning 
+of the spring season, and periodically checked and scrubbed during the summer 
+season.
+   
+
+5)	Site location and character:
+
+General description of Waquoit Bay estuarine system: 
+		The Waquoit Bay National Estuarine Research Reserve (WBNERR) is 
+located in the northeastern United States on the southern coast of Cape Cod, 
+Massachusetts.  About 8,000 people maintain permanent residency in Waquoit Bay's 
+drainage area, which covers parts of the towns of Falmouth, Mashpee, and 
+Sandwich. During summer months, the population swells 2-3 times with the 
+greatest housing concentrations immediate to the coastline (water views and 
+frontage). In addition, the upper portions of the watershed include a military 
+base, Otis Air Force Base and the Massachusetts Military Reservation, portions 
+of which have been designated by the EPA as Superfund sites due to past 
+practices of dumping jet fuel and other volatile groundwater contaminants.  
+   	WBNERR's estuaries are representative of shallow tidal lagoons that occur 
+from Cape Cod to Sandy Hook, New Jersey. WBNERR is within the northern edge of 
+the Virginian biogeographic province, on the transitional border (Cape Cod) with 
+the Acadian biogeographic province to the north and east.
+	Like many embayments located on glacial outwash plains, Waquoit Bay is 
+shallow (< 5 m), fronted by prominent barrier beaches (i.e., those of South Cape 
+Beach State Park and Washburn Island), and is backed by salt marshes and upland 
+coastal forests of scrub pine and oak.  Two narrow, navigable inlets, reinforced 
+with granite jetties, pass through two barrier beaches to connect Waquoit Bay 
+with Vineyard Sound to the south.  A third shallow and generally un-navigable 
+inlet opened through the Washburn Island barrier beach during Hurricane Bob in 
+August 1991, finally closed up in February 2002. 
+		Bottom sediments in the bay are organic rich silts and medium sands. 
+Sediment cores taken in summer of 2002 indicate that the depth of these 
+estuarine sediments is up to 9 m thick in places. Thick (up to 0.3 m) 
+macroalgae (seaweed) mats overlie much of the bottom of the bay, and largely 
+consist of species Cladophora vagabunda, Gracilaria tikvahiayae, and 
+Enteromorpha. The dominant marsh vegetation in Waquoit Bay is Spartina 
+alterniflora and Spartina patens. Dominant upland vegetation includes mixed 
+forests of red oak, white oak, and pitch pine, and other shrubs and plants 
+common to coastal New England. Land-use in the bay's watershed is about 60% 
+natural vegetation, but the remaining land is largely residential housing, with 
+some commercial (retail malls), and minor amounts of agriculture (~3%) 
+(cranberry bogs).
+		Dense housing developments cover the two peninsulas that form the 
+western shore of the Waquoit Bay estuarine system.  Although the developments 
+themselves are outside of the Reserve boundaries, dissolved nitrogen in 
+discharges from their septic systems (via groundwater) and in fertilizer run-off 
+from their lawns has significant effects on the functioning of the Waquoit Bay 
+ecosystem. These impacts have been a primary subject of study at the Reserve 
+since its designation (1988).  One outcome of this research has been the 
+delineation of sub-watersheds within the overall drainage area for Waquoit Bay, 
+of which WBNERR is a small part. This knowledge allows for the design of 
+experiments based on the spatial variation of nutrient loading and other land-
+use related impacts.
+		At the northern end of the bay, an area comprising a separate sub-
+watershed, coastal bluffs of glacial till rise 30 feet above sea level. The 
+northern basin of the bay, just below these bluffs, is its deepest area 
+(approximately 3 m MLW), while much of the remainder of the bay is about 1.5 m. 
+Bourne, Bog, and Caleb Ponds are freshwater kettle hole ponds on the northern-
+most shore of the bay.  As components of the same sub-watershed, they have a 
+common albeit minor freshwater outflow into the bay's northern basin via a 
+narrow channel through a brackish marsh. To the east and south, other sub-
+watersheds surround several tidal and freshwater ponds, including Hamblin and 
+Jehu Ponds, brackish salt ponds that are connected to the main bay by the tidal 
+waters of Little and Great Rivers, respectively.  The shorelines of the ponds 
+are developed with residences that are occupied both seasonally and year round. 
+Hamblin Pond and Little River are components of one sub-watershed, and Jehu Pond 
+and Great River are elements of a separate sub-watershed. Further south lies 
+Sage Lot Pond. It is in the least developed sub-watershed and also contains a 
+barrier beach and salt marsh ecosystem of the reserve's South Cape Beach State 
+Park. To the east of Sage Lot Pond and within the same sub-watershed, lies the 
+highly brackish Flat Pond. It receives minimal tidal flows of salt water from 
+Sage Lot Pond through a narrow, excavated and culverted channel. The 
+preponderance of the input to Flat Pond is groundwater and run off, both of 
+which are likely affected (e.g., nutrients, pesticides, bacteria) by an adjacent 
+golf course and near-by upper-scale residential development.
+		The largest source of surface freshwater to Waquoit Bay is the 
+Quashnet / Moonakis River.  Although named "river", this and Childs River are 
+more appropriately described as "streams"  because of their small channels and 
+discharge ~1.0 CFS.  A component of yet another sub-watershed, it originates in 
+Johns Pond situated north of the bay and traverses forests, cranberry bogs, 
+residential areas, and the Quashnet Valley Golf Course before entering the bay 
+near the southern "boundary" of the northern basin. ("Quashnet" applies to that 
+portion of the river within the town of Mashpee, and "Moonakis" refers to the 
+brackish estuary at the river's mouth, lying in the town of Falmouth.  Quashnet 
+will be used hereafter to refer to the entire river.)  The Quashnet River's 
+tidal portion has sufficient numbers of coliform bacteria to cause it to be 
+closed to shell fishing most of the time. The source(s) of this bacteria (human 
+or avian) is unknown at this time.
+ 	The Childs River is the second largest input of surface freshwater to the 
+bay.  A component of another sub-watershed, it runs through densely developed 
+residential areas. The Childs River sub-watershed receives the highest nitrogen 
+loading and is the largest nitrogen contributor to the Waquoit Bay system of all 
+the sub-watersheds. In the upper tidal portions of the river we have 
+consistently recorded the highest chlorophyll levels and the lowest dissolved 
+oxygen readings of any region in the bay and so this location represents an end-
+member for looking at anthropogenic inputs and impacts on the system.  Another, 
+albeit smaller, source of freshwater is the discharge of Red Brook through 
+brackish marshlands into Hamblin Pond.  Additional freshwater enters the bay 
+elsewhere through groundwater seepage (perhaps up to 50% of all freshwater input 
+into the bay), precipitation and the flows of smaller brooks. There is 
+relatively little surface water runoff entering directly into the bay due to the 
+high percolation rates of Cape Cod's coarse, sandy soils.
+		Knowledge of the homo/heterogeneity of the water masses in Waquoit 
+Bay was originally derived from measurements made by reserve staff and from data 
+obtained by the reserve's volunteer water quality monitoring group, the Waquoit 
+BayWatchers who have collected depth profiles of Waquoit Bay water quality 
+since 1993. Subsequent research by reserve staff (including some numerical 
+modeling by T. Isaji) has revealed that lateral mixing has considerable 
+influence because tidal currents follow a general course through 
+the bay. This results in an overall structure to horizontal patterns of water 
+quality characteristics. The pattern it produces is a gyre in the central 
+portion of the main bay whereby currents follow a generally counter-clockwise 
+flow around a central area that exhibits reduced exchange with the remainder of 
+the bay. The flushing rate within the gyre is diminished when compared with 
+other more peripheral areas of the bay. The location of the gyre meanders 
+slightly, apparently under the influence of tides and wind). Because of the 
+shallow conditions, restricted tidal inlets, and low amplitude tidal forcing of 
+Vineyard Sound here (tides are semi-diurnal with a range about 0.5 m) water 
+levels in the bay are also strongly influenced by wind forcing. Southerly winds 
+increase tidal heights and advance the phase of the flood and retard the phase 
+of ebb (Northerly winds have the opposite effect). 
+
+		The Metoxit Point station (MP) (41o  34.131' N 070o 31.294' W, 2.2 m 
+deep) initiated in 1998, is located in the main basin of Waquoit Bay and was 
+selected to be within or near the outer regions of the gyre (described above) 
+and more or less represents "typical" water mass conditions and residence times 
+for the bay. The location is at least a half mile from shore, well flushed by 
+tides, and is in an area that is minimally disturbed by routine activities on 
+the bay (e.g. boat traffic, shell fishing, etc.). Bottom sediments at the site 
+are organic rich muds overlain by thick agal mats. The salinity at this 
+location typically ranges anywhere from 28-33 ppt.  Turbidity throughout the 
+year is typically low (<5 NTU), though base values are higher in the warmer 
+months as phytoplankton levels increase.  Also, because of this site's fairly 
+open exposure to the south (greatest fetch over the bay), we have observed that 
+when sustained southerly winds are greater than about 20 kts, the Metoxit Point 
+site experiences increased turbidity ranging up to 25 NTU and beyond (sediment 
+suspension event).  
+		The Menauhant station (MH) (41o 33.156' N 070o 32.912' W, 1.2 m 
+deep), initiated in March 2001, is located within the Eel Pond Inlet at the 
+Menauhant Yacht Club dock.  Eel Pond Inlet is the westernmost of the two main 
+tidal inlets into the Waquoit Bay system. The site was chosen because it 
+occupies one of the strategic locations for gauging the system's water mass 
+characteristics. Entering waters represent the marine end-member while outflows 
+represent the final product of estuarine water mass modification and export to 
+shelf waters. The salinity typically ranges from 28 to 33 ppt.   The site also 
+has easy walk-in access to a secure private pier 
+that extends into the throat of the inlet.  Also, because of the turbulent tidal 
+flow within the inlet, conditions are vertically well mixed, and the site can be 
+maintained year round even through ice-over conditions in the rest of the bay.  
+Bottom sediments at this site are clean sands and gravels with almost no 
+attached bottom vegetation. Turbidity throughout the year is typically low (<5 
+NTU), though base values are higher in the warmer months as phytoplankton 
+levels increase.  Since inception, we have noted that strong south to 
+southeast (onshore) winds tend to produce turbidity events, ranging up to 60 
+NTU, at this site from the wave induced suspension of fine sediments and 
+organic material in the upstream near-shore zone.  While we have found that 
+these type of turbidity events are localized to windward near-shore areas in the 
+bay, the transport of these sediments at inlet mouths during such times is 
+perhaps a dominant sedimentation process within the estuarine system.  In other 
+words while the choice of our location may be producing a localized signal in 
+one of our measured parameters that signal may reflect key processes in the 
+system at large.
+		The Child's River station (CR) (41o 34.793' N 070o 31.854' W, 1.2 m 
+deep), was initiated this year in May, is located on a dock piling at Edwards 
+Boat Yard, a commercial marina near the upper tidal reaches of of Child's River- 
+one of the two main surface fresh water sources to Waquoit Bay (see general 
+description of Waquoit Bay watershed above). This location is very strongly 
+stratified, characterized by a salt wedge with fresher river water overlying 
+saline ocean water. Vertical salinity ranges can run from 0-10 ppm at the 
+surface to more than 30 ppm  just 1 m below. The sonde sensors are usually 
+well within the salt wedge portion of the water column, nonetheless this 
+location is also our freshest SWMP site, and is at the opposite end of Child's 
+River from the seaward Menauhant station.  Bottom sediments are fine organic 
+rich muds. This location represents the most terrigenously and nthropogenically-
+impacted SWMP site. Monthly water quality, collected near this location for the 
+past decade, shows very high chlorophyll concentrations during the warmer months 
+and more recent dissolved nutrient records show very high nutrient-loads. 
+Turbidity during the colder months is typically low (<5 NTU), while base values 
+ramp up higher in the warmer months as phytoplankton levels increase to some of 
+the highest concentrations recorded in the Waquoit Bay system. Boat traffic at 
+the marina likely leads to increased turbidity (spiking up to 40 NTU and 
+greater) during the boating season as well. As this site is dockside at a 
+private marina, general security is high along with easy access. The station is 
+also serviceable year-round and usually not subject to seasonal shutdown due to 
+ice over.    
+		The Sage Lot station (SL) (41o 33.254' N 070o 30.612' W, 1.2 m 
+deep), also was initiated this year in May, and is located in deeper portion of 
+Sage Lot Pond - a small sub-estuary of Waquoit Bay (20 ha) surrounded by salt 
+marsh and barrier beach. Its small watershed is the least developed of all of 
+Waquoit Bay's sub-watersheds and Sage Lot Pond is considered to be its least 
+impacted and most pristine sub-estuary.  Bottom sediments are organic rich muds. 
+Sage Lot Pond possesses one of the few remaining eelgrass beds in the Waquoit 
+Bay system. Indeed the Child's River and Sage Lot Pond sites are considered to 
+represent opposite end-members of nutrient-loading and human-induced influence. 
+Researchers often locate their experiments in these two locations to take 
+advantage of this difference. Turbidity throughout the year is typically low 
+(<5 NTU), with higher end base values  ranging up to 10 NTU.  However, Sage Lot 
+Pond is hydrologically connected to an upstream brackish source --  Flat Pond - 
+via a series of tidal creeks, drainage ditches and culverts. With this brackish 
+input we see salinity readings from 20 to 32 ppt.  Flat Pond borders a country 
+club and golf course and some concern exists for its impact on the water quality 
+of Sage Lot Pond. 
+
+
+6)	Data collection period:
+Data loggers were deployed at the Metoxit Point (MP) and Menauhant Yacht Club 
+(MH) sites on January 1, 2002.  Data loggers at the Child's River (CR) were 
+first deployed on May 29, 2002 and at Sage Lot (S) on May 16, 2002. All 
+stations, with the exception of Sage Lot, were in operation from these dates 
+through the end of December.  All monitoring is considered long-term.  
+Deployment dates and times for 2002 are indicated below:
+
+BEGAN					ENDED
+Metoxit Point Site
+12/27/2001,15:30:00			01/15/2002, 04:00:00
+01/16/2002,09:00:00 			02/07/2002, 10:30:00
+02/07/2002,11:00:00			02/19/2002, 11:30:00
+02/19/2002,12:00:00			03/07/2002, 12:30:00
+03/07/2002,13:00:00			03/20/2002, 11:30:00
+03/20/2002,12:00:00			04/11/2002, 09:00:00
+04/11/2002,09:30:00			04/29/2002, 09:30:00
+04/29/2002,10:30:00			05/16/2002, 10:30:00
+05/16/2002,10:30:00			05/29/2002, 08:00:00		
+05/29/2002,09:30:00 			06/12/2002, 08:00:00
+06/12/2002,07:30:00			06/26/2002, 07:00:00
+06/26/2002,08:30:00			07/10/2002, 10:00:00
+07/10/2002,10:00:00			07/26/2002, 09:00:00
+07/26/2002,10:30:00			08/07/2002, 08:30:00
+08/07/2002,08:00:00			08/21/2002, 10:30:00
+08/21/2002,11:00:00			09/09/2002, 07:30:00
+09/09/2002,08:00:00			09/19/2002, 09:30:00
+09/19/2002,10:00:00			10/03/2002, 11:30:00
+10/03/2002,12:00:00			10/15/2002, 12:30:00
+10/15/2002,16:00:00			10/31/2002, 11:30:00
+10/31/2002,12:00:00			11/12/2002, 12:30:00
+11/12/2002,13:00:00			12/04/2002, 12:00:00
+12/04/2002,12:30:00			01/01/2003, 23:00:00
+
+Menauhant YC Site
+12/27/2001, 08:30:00			01/16/2002, 09:00:00
+01/16/2002, 09:30:00			02/07/2002, 11:30:00
+02/07/2002, 12:00:00			02/19/2002, 09:00:00
+02/19/2002, 09:30:00			03/07/2002, 11:30:00
+03/07/2002, 12:00:00			03/20/2002, 12:00:00
+03/20/2002, 12:30:00			04/09/2002, 07:30:00
+04/09/2002, 08:00:00	 		04/29/2002, 10:30:00
+04/29/2002, 11:00:00			05/16/2002, 07:00:00
+05/16/2002, 07:30:00			05/29/2002, 08:30:00
+05/29/2002, 09:00:00			06/12/2002, 07:30:00
+06/12/2002, 08:30:00			06/26/2002, 07:30:00
+06/26/2002, 08:00:00			07/10/2002, 07:00:00
+07/10/2002, 07:30:00			07/25/2002, 06:30:00
+07/25/2002, 07:00:00			08/07/2002, 07:30:00
+08/07/2002, 08:30:00			08/21/2002, 14:00:00
+08/21/2002, 14:30:00			09/06/2002, 09:00:00
+09/06/2002, 09:30:00			09/19/2002, 08:30:00
+09/19/2002, 09:00:00			10/03/2002, 07:00:00
+10/03/2002, 07:30:00			10/15/2002, 12:00:00
+10/15/2002, 12:30:00			10/31/2002, 08:30:00
+10/31/2002, 09:00:00			11/12/2002, 09:30:00
+11/12/2002, 10:00:00			12/04/2002, 08:30:00
+12/04/2002, 09:30:00			01/01/2003, 22:30:00
+
+Child's River Site
+05/29/2002, 09:30:00			06/12/2002, 08:30:00
+06/12/2002, 09:00:00			06/26/2002, 08:00:00
+06/26/2002, 08:30:00			07/10/2002, 11:30:00
+07/10/2002, 12:00:00			07/26/2002, 09:30:00
+07/26/2002, 10:00:00			08/07/2002, 09:00:00
+08/07/2002, 09:30:00			08/21/2002, 13:30:00
+08/21/2002, 14:00:00			09/06/2002, 09:30:00
+09/06/2002, 10:00:00			09/19/2002, 09:00:00
+09/19/2002, 09:30:00			10/03/2002, 07:30:00
+10/03/2002, 08:00:00			10/15/2002, 10:00:00
+10/15/2002, 10:30:00			10/31/2002, 09:00:00
+10/31/2002, 09:30:00			11/12/2002, 10:00:00
+11/12/2002, 10:30:00			12/04/2002, 09:00:00
+12/04/2002, 09:30:00			01/08/2003, 12:00:00
+
+Sage Lot Site	
+		
+05/16/2002, 14:30:00			05/29/2002, 10:00:00
+05/30/2002, 11:30:00			06/12/2002, 10:00:00
+06/12/2002, 10:30:00			06/26/2002, 09:00:00
+06/26/2002, 09:30:00			07/12/2002, 08:30:00
+07/12/2002, 09:00:00			07/25/2002, 07:00:00
+07/25/2002, 07:30:00			08/07/2002, 10:30:00
+08/07/2002, 11:00:00			08/21/2002, 12:30:00
+08/21/2002, 13:00:00			09/10/2002, 11:30:00
+09/10/2002, 12:00:00			09/19/2002, 07:30:00
+09/19/2002, 08:00:00			10/03/2002, 10:30:00
+10/03/2002, 11:00:00			10/15/2002, 11:00:00
+10/15/2002, 11:30:00			10/31/2002, 08:00:00
+10/31/2002, 08:30:00			11/12/2002, 11:30:00
+11/12/2002, 12:00:00			12/03/2002, 16:00:00
+12/03/2002, 16:30:00			12/09/2002, 15:30:00
+12/09/2002-12/31/2002		NO DATA COLLECTED DUE TO ICE!
+
+7)	Distribution:
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program,	NOAA/ERD retains the right to 
+analyze, synthesize and publish summaries of the NERRS System-wide Monitoring 
+Program data.  The PI retains the right to be fully credited for having 
+collected and processed the data.  Following academic courtesy standards, the PI 
+and NERR site where the data were collected will be contacted and fully 
+acknowledged in any subsequent publications in which any part of the data are 
+used.  Manuscripts resulting from the NOAA/OCRM supported research that are 
+produced for publication in open literature, including referred scientific 
+journals will acknowledge that the research was conducted under an award from 
+the Estuarine Reserves Division, Office of Ocean and Coastal Resource 
+Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration.  The data set enclosed within this package/transmission is only 
+as good as the quality assurance and quality control procedures outlined by the 
+enclosed metadata reporting statement.  The user bears all responsibility for 
+its subsequent use/misuse in any further analyses or comparisons.  The 
+Federal government does not assume liability to the Recipient of third persons, 
+nor will the Federal government reimburse or indemnify the Recipient for its 
+liability due to any losses resulting in any way from the use of this data.
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see section 1.Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under general information 
+link on CDMO homepage) and online at the CDMO homepage 
+http://cdmo.baruch.sc.edu.   Data are available in text tab-delimited format, 
+Microsoft Excel spreadsheet format and comma-delimited format.
+
+8)	Associated researchers and projects:
+Our data is publicly available through our web site and we do not track its use.
+
+II.  Physical Structure Descriptors
+
+9)	Variable sequence, range measurements, units, resolution, and accuracy:
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+	
+10)	 Coded variable indicator and variable code definitions:
+
+All NERRS sites are required to use the following file naming convention.
+
+File definitions:  YSI deployment site/month/year or SS/MM/YY
+Our sites names are designated: 	a) Metoxit Point= MP
+						b) Menauhant Site= MH
+						c) Child's River = CR
+						d) Sage Lot= SL
+Example:  MPwq0502 (designates monthly water quality data from May 2002 at the 
+Metoxit Point Site)
+
+11)	 Data anomalies:
+
+SMALL NEGATIVE TURBIDITY ANOMALIES: Slight negative turbidity values sometimes 
+occur as a result of small calibration offsets. Often these turbidity minimum 
+values are between 0 and -2 NTU. In May of this year we installed new model 
+turbidity probes (YSI 6136) on our 6600 YSI data loggers. Due to the larger 
+sampling depth of these new probes, larger calibration offsets occurred 
+resulting in somewhat lower negative turbidity values (e.g., -2 to -14 NTU). 
+Improvement in our calibration methods corrected this larger offset problem 
+later in the year. All of these small negative turbidity values (the minimum for 
+a given deployment) should be considered to be within 2 NTU of the true datum 
+for correction purposes. Consequently, we have not deleted any of these small 
+negative turbidity data. 
+
+BIOLOGICAL-RELATED TURBIDITY ANOMALIES: This type anomaly includes turbidity 
+readings that are either outside of the normal range or spikes way above 
+background and unrelated to increased sediment suspension or decreased water 
+column clarity. We believe these records are real (and not sensor malfunction), 
+though not reflective of actual water column turbidity.  These extreme values 
+are likely due to biological factors (such as small fish, crabs, or other marine 
+organisms). Our criteria for flagging these data are single spikes (above rather 
+constant background) over 50NTU that are more than 10 times surrounding values. 
+These readings were deleted.
+
+SUSPENSION EVENT RELATED TURBIDITY ANOMALIES: This type of anomaly includes 
+turbidity readings that were either outside the normal range, or spikes way 
+above background that are related to elevated turbidity levels indicative of 
+wind wave related suspension events. We believe these are real (and not sensor 
+malfunction), though not reflective of actual water column turbidity.  These 
+extreme values are likely due to large floating particles (i.e., seaweeds, 
+detritus, etc.) suspended in the water column during storm  events usually from 
+strong southerly winds in the Waquoit Bay area. (see end of section 5 for more 
+detail on these events at this site). Our criteria for flagging these data are 
+values over 100NTU that are more than 5 times the magnitude of surrounding 
+values, and linked to high winds.  These readings were deleted.
+
+ 
+
+January 2002
+Metoxit Point:
+
+a)	The data logger stopped logging as of 01/15/2002 4:30 to 01/16/2002 8:30 
+due to battery failure.
+
+Menauhant:
+a)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+b)	The following data points were not collected by the data logger:
+
+01/22/2002	09:00:00
+01/22/2002	09:30:00
+
+c) Depth is zero on 01/14/2002 at 04:00:00. This is likely due to a combination 
+of extremely low tides and meteorological conditions causing the probe either to 
+be out of the water and/or appearing so as to low atmospheric pressure.  The 
+depth data point was not deleted 
+
+
+February 2002
+Metoxit Point:
+a) There were no anomalous data found this month.
+
+Menauhant:
+a)	The following data points were not collected by the data logger:
+
+02/04/2002	08:30:00
+02/26/2002	08:30:00
+02/26/2002	09:00:00
+02/28/2002	05:30:00
+
+b)  Oxygen probe electrode failure from 02/19/2002 09:30:00 to 02/28/2002 
+23:30:00. All DO data deleted for this period.
+
+c)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+d)	The following anomalous turbidity data are likely related to a suspension 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+02/12/2002	12:30:00
+
+e)	The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+02/26/2002	18:30:00
+
+
+March 2002
+Metoxit Point:
+a)	There were no anomalous data found this month.
+
+Menauhant:
+
+a) Oxygen probe electrode failure from 03/01/2002 00:00:00 to 03/07/2002 
+11:30:00. All DO data deleted for this period.
+
+b)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+c)	The following anomalous turbidity data are likely related to a suspension 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+03/03/2002	01:00:00
+03/03/2002	10:00:00
+03/03/2002	14:30:00
+03/20/2002	16:30:00
+03/26/2002	18:00:00
+03/30/2002	08:30:00, 09:30:00
+
+d)	The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+03/09/2002	21:00:00
+03/18/2002	10:00:00, 12:00:00
+
+e) The following data points were not collected by the data logger:
+03/27/2002 08:30:00 - 09:00:00
+
+
+April 2002
+
+Metoxit Point:
+a)	The temperature probe failed on the last day of month about one day after 
+deployment. Temperature affects the calculation of a number of other parameters 
+consequently the readings for temperature, specific conductivity, salinity, DO, 
+depth and pH, were deleted due to the probe failure for the following time 
+period:
+
+04/30/2002 07:30:00 to 04/30/2002 23:30:00
+
+b) Anomalous Specific Conductivity and salinity data were deleted for the 
+following dates and times:
+04/10/2002 13:00:00 – 19:00:00
+04/10/2002 20:30:00
+04/11/2002 01:30:00
+
+Menauhant:
+
+a)	Channel dredging adjacent to this site started in the middle of the month. 
+The exact dates are unknown. This may have caused some elevated turbidity 
+levels, but no anomalous events appear to be directly related to this activity.
+
+b)	An anomalously low DO reading of unknown cause occurred at 04/01/2002 at 
+19:30:00. The DO data points for this time period were deleted.
+
+c)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.	
+
+d)	The following anomalous turbidity data are likely related to a suspension 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+04/25/2002	19:00:00-20:00:00, 21:00:00-21:30:00
+04/28/2002	09:00:00
+
+e)	The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+04/16/2002	09:00:00
+04/24/2002	17:30:00
+  
+May 2002
+
+Metoxit Point:
+a)	The temperature probe failed about one day after deployment. Temperature 
+affects  the calculation of a number of other parameters consequently the 
+readings for temperature, specific conductivity, salinity, DO, depth and pH, 
+were deleted due to the probe failure for the following time period:
+ 
+05/01/2002	00:00:00 to 05/16/2002	10:30:00	
+	
+
+b)	The dissolved oxygen membrane was punctured with air bubbles when 
+retrieved on 05/29/02.  It looks as though it was punctured about an hour after 
+it was deployed.  The following dissolved oxygen % and mg/L readings were out of 
+range due to a membrane puncture during deployment and were deleted:
+
+05/16/2002	11:00:00 to 05/29/2002	08:00:00
+
+	
+Menauhant:
+a)	The following readings were not recorded by the data logger:
+
+05/03/2002	08:30:00
+05/03/2002	09:00:00
+05/05/2002	05:30:00
+
+b)	There was battery failure after 05/12/2002 14:30:00.  All records 
+05/12/2002 15:00:00 through 05/16/2002 07:00:00 were not recorded by the data 
+logger.
+
+c)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+d)	The following anomalous turbidity data are likely related to a suspension 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+05/06/2002	16:30:00, 17:30:00-18:00:00, 19:00:00
+05/17/2002	12:00:00
+05/22/2002	19:00:00
+
+e)	The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+05/06/2002	12:00:00
+05/11/2002	21:00:00
+05/17/2002	08:30:00, 20:30:00
+05/22/2002	12:00:00
+05/29/2002	01:30:00
+
+Child's River:
+a) The initial deployment at this site began on 05/29/2002 at 09:30:00.
+
+b) Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+
+Sage Lot:
+a)The data logger was deployed on 5/16/2002 at 14:30:00.  The data logger ran 
+out of memory on 5/29/2002, 10:00:00 due to loss of disk space.  It was set at 
+an interval of 1 minute for 14 days.  Data were lost from 5/29/2002, 10:30:00 
+through 5/30/2002, 11:00:00.
+
+b) Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+
+June 2002
+
+Metoxit Point:
+a)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+  
+Menauhant:
+
+a)	 Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+b)	The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+06/06/2002	15:00:00
+06/12/2002	19:30:00
+06/29/2002	13:30:00
+
+Child's River:
+a)  Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+Sage Lot:
+a)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+b)	The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+06/22/2002	16:30:00
+06/24/2002	19:30:00
+
+c)  NOTE: There was an abundance of biota on the data logger, to a degree un-
+noticed at other sites.
+
+July 2002
+
+Metoxit Point:
+a) Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+ 
+Menauhant: 
+a)	The following dissolved oxygen mg/L data were negative due to fouling of 
+the electrodes.  These data were deleted.
+
+07/17/2002	03:00:00  to 07/25/2002	06:30:00
+
+b) The following DO data were deleted due to a punctured membrane.
+
+07/25/2002 07:00:00 to 07/31/2002 23:30:00
+
+c) Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+d) The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+07/04/2002	04:00:00
+07/08/2002	14:30:00
+07/21/2002	05:00:00, 16:00:00
+
+e) Highly anomalous dissolved oxygen (mg/L and %) data were deleted for the 
+following dates/times due to fouling of sonde at retrieval:
+07/09/2002 13:00:00 – 07/10/2002 07:00:00
+
+
+Child's River:
+a)	The following dissolved oxygen % readings were slightly negative, but 
+conditions were very anoxic.  The data were not deleted.
+
+07/02/2002	06:00:00 – 08:30:00
+07/03/2002	11:30:00 
+07/04/2002	11:00:00 - 12:30:00
+
+b)	The following dissolved oxygen mg/L readings were slightly negative due, 
+but conditions were very anoxic.  The data were not deleted
+
+07/02/2002	06:00:00 - 09:00:00; 10:30:00 - 11:00:00
+07/03/2002	11:00:00 - 12:00:00
+07/04/2002	10:00:00 - 12:30:00
+
+c)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+d) Anomalously high turbidity (872 NTU) for the following dates/times were 
+deleted:
+07/17/2002 15:00:00 
+
+Sage Lot:
+a)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+b)	Specific conductivity and salinity data were deleted from 07/06/2002 
+00:00:00 to 07/12/2002 08:30:00 due to anomalous behavior of the conductivity 
+probe.  Salinity shows a very regular downward drift of about 8 ppm over this 
+period. Cause is unknown, but a similar phenomenon was noted at Menauhant in 
+August and a barnacle was found growing on the probe near the port. Though 
+salinity affects the algorithms for depth, DO, and pH we have not deleted these 
+data.
+
+
+August 2002
+
+Metoxit Point:
+a)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+b) The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+08/21/2002 18:00:00
+08/27/2002 09:30:00
+
+
+Menauhant:
+
+a) Specific conductivity and salinity data were deleted from 08/17/2002 00:00:00 
+to 08/21/2002 14:00:00 due to anomalous behavior of conductivity probe.  
+Salinity shows a very regular downward drift of about 3 ppm over this period. 
+Cause is unknown, but a barnacle found growing on the probe near the port is the 
+suspected cause. Though salinity affects the algorithms for depth, DO, and pH we 
+have not deleted these data due to the rather small overall change in salinity. 
+
+b) The following DO data were deleted due to a punctured membrane.
+
+08/01/2002 00:00:00 to 08/07/2002 07:30:00
+
+c) Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+d) The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+08/19/2002 19:30:00
+
+Child's River:
+a)  Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+b) The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+08/05/2002	06:30:00
+08/08/2002	05:30:00
+08/09/2002	06:30:00
+08/10/2002	05:30:00
+08/11/2002	07:00:00
+08/15/2002	01:30:00, 10:00:00
+08/17/2002	02:30:00
+08/20/2002	14:30:00, 18:00:00
+08/23/2002	16:30:00
+08/24/2002	06:30:00
+08/25/2002	08:30:00
+08/26/2002	06:30:00
+08/28/2002	12:00:00
+08/30/2002	06:00:00, 07:00:00, 16:30:00
+08/31/2002	06:00:00 
+
+Sage Lot:
+a)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+b)	The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+08/17/2002	20:30:00
+
+
+September 2002
+
+Metoxit Point:
+a) Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+
+b) The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+
+09/11/2002	05:00:00
+09/11/2002	09:00:00
+09/13/2002	07:00:00
+09/15/2002	00:00:00
+09/16/2002	04:00:00
+09/18/2002	12:00:00
+
+Menauhant:
+a) Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+b)	The following anomalous turbidity data are likely related to a suspension 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+09/08/2002	21:00:00
+09/10/2002	12:00:00-12:30:00, 13:30:00
+
+c)	The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+09/02/2002	23:30:00
+09/07/2002	07:30:00
+09/11/2002	12:30:00
+09/29/2002	05:00:00
+
+d) The following Spec. Cond and salinity data were deleted due to calibration 
+error:
+09/06/2002 09:30:00 – 09/19/2002 08:30:00
+
+
+Child's River:
+a) Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+b) The following anomalous turbidity data are likely related to a suspension 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+09/03/2002	16:30:00
+
+c) The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+09/04/2002	18:00:00
+09/08/2002	06:30:00
+09/09/2002	16:30:00
+09/11/2002	11:00:00, 12:00:00, 17:30:00
+09/13/2002	11:30:00
+09/16/2002	07:00:00, 11:30:00
+09/17/2002	08:00:00
+09/23/2002	19:30:00
+
+Sage Lot:
+a) Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+b) The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+09/17/2002	22:00:00
+09/25/2002	02:00:00
+09/28/2002	17:30:00
+
+October 2002
+
+Metoxit Point:
+a) Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+b)	In the retrieval of instrument 01B1041 on 10/15/2002, the silo was found 
+tipped over at the bottom of the bay and replaced on 10/15/2002 16:00:00.  All 
+data from the deployment 10/03/2002 12:00:00 to 10/15/2002 12:30:00 were 
+deleted. In resetting the silo no data were collected from 10/15/2002 13:00:00 
+through 15:30:00.  
+
+c)	The following anomalous turbidity data are likely related to a suspension 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+10/17/2002	23:00:00
+10/18/2002	00:30:00
+
+d) The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+
+10/21/2002	05:30:00
+10/29/2002	19:00:00
+10/29/2002	20:30:00
+
+
+Menauhant:
+
+a) Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+b)	The following anomalous turbidity data are likely related to a suspension 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+10/04/2002	17:00:00-17:30:00, 18:30:00
+10/07/2002	07:30:00-08:00:00
+10/14/2002	20:30:00, 22:30:00-23:00:00
+10/17/2002	01:30:00
+10/25/2002	18:00:00, 19:00:00
+
+c)	The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+10/10/2002	03:30:00, 22:00:00
+
+Child's River:
+a)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+Sage Lot:
+a)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+b)	The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+10/21/2002	05:30:00
+10/22/2002	23:30:00
+
+c)  Turbidity readings started acting funny from 10/30/2002 19:30:00 to 
+10/31/2002 08:00:00, oscillating from very high values to negative values (more 
+negative than previous minima for deployment). Cause is unknown, but perhaps 
+sensor malfunction. These data have been deleted.
+
+November 2002
+
+Metoxit Point:
+a) Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+b) The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+11/19/2002	19:00:00
+
+Menauhant:
+a) Small negative turbidity values related to calibration offsets were recorded 
+this month. See note at the beginning of this section for further explanation.
+
+b)	The following anomalous turbidity data are likely related to a suspension 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+11/02/2002	17:30:00
+11/04/2002	02:30:00, 17:00:00, 19:30:00
+11/05/2002	17:00:00
+11/06/2002	00:00:00, 06:30:00-07:30:00, 17:00:00
+11/07/2002	21:30:00
+11/08/2002	19:30:00
+11/10/2002	16:00:00, 17:00:00
+11/11/2002	12:30:00, 17:30:00, 19:30:00
+11/12/2002	03:30:00
+
+c)	The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+11/12/2002	13:00:00
+11/20/2002	10:00:00
+11/25/2002	22:30:00
+
+Child's River:
+a)	Zero turbidity values related to calibration offsets were recorded this 
+month. See note at the beginning of this section for further explanation.
+
+b)	The following anomalous turbidity data are likely related to a suspension 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+11/17/2002	21:00:00
+
+c)	The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+11/22/2002	22:00:00
+11/26/2002	05:00:00
+
+Sage Lot:
+a)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+b)	Turbidity readings again appear abnormal from 11/12/2002 12:00:00 to 
+11/18/2002 11:30:00, similar to behavior in earlier deployment with the same 
+instrument in October. Again, cause is unknown, but suspect sensor malfunction. 
+These data have been deleted.
+
+December 2002
+
+Metoxit Point:
+a) There were no anomalous data this month.
+
+Menauhant:
+
+a)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+b)	The following anomalous turbidity data are likely related to a suspension 
+event and were deleted. See note at the beginning of this section for further 
+explanation
+
+12/12/2002	00:30:00-01:00:00
+12/14/2002	03:00:00-03:30:00, 05:00:00-05:30:00
+12/15/2002	08:30:00
+12/20/2002	09:30:00
+12/25/2002	10:00:00-12:30:00, 13:30:00, 16:30:00
+12/31/2002	04:30:00-06:00:00, 08:00:00-08:30:00
+
+c)	The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+12/11/2002	13:00:00
+
+Child's River:
+a)	Zero turbidity values related to calibration offsets were recorded this 
+month. See note at the beginning of this section for further explanation.
+
+Sage Lot:
+
+a)	Small negative turbidity values related to calibration offsets were 
+recorded this month. See note at the beginning of this section for further 
+explanation.
+
+b)  The following anomalous turbidity data are likely related to a biological 
+event and were deleted. See note at the beginning of this section for further 
+explanation.
+
+12/09/2002	15:30:00
+
+c)	 The data logger was removed from the site on 12/09/2002 15:30:00 due to 
+thick ice cover.  From 12/09/2002 16:00:00 until 12/31/2002 23:30:00 the data 
+logger was not deployed and no data was recorded.
+
+ 
+12)	 Missing data:
+
+Missing data are denoted by a period in the data set.  Data are missing due to 
+equipment failure where no probes deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers, or elimination of data due to 
+calibration (both pre and post) problems.  For more details on deleted data, see 
+section 11, Data Anomalies.  The Waquoit Bay NERR Research Coordinator can also 
+be contacted about other issues concerning missing or anomalous data.
+
+13)	 Post deployment information:
+
+End of Deployment Post-calibration Readings in Standard Solutions:
+Site		Date		Salinity (ppt)	DO%		pH		Turbidity
+				(std-31.93ppt)	(std-air)	(std-7.0)	(std-0 NTU)
+MP	
+		02/19/02	31.72			102.2		6.89			-0.1
+		03/20/02	32.02			102.8		6.94			0.3
+		04/11/02	33.44			104.4		6.77			1.4
+		04/29/02	31.87			97.3		7.03			0.3
+		05/15/02	31.25			48.6		6.95			0.6
+		05/29/02	32.14			107.3		7.0			0.0
+		06/12/02	32.44			91.7		7.01			1.1
+		06/26/02	32.01			105.7		6.85			0.0
+		07/10/02	32.07			86.1		7.06			0.3
+		07/26/02	32.28			122.5		6.90			-4.6
+		08/07/02	32.39			134.4		7.03			4.0
+		08/21/02	31.49			100.3		6.92			-4.3
+		09/09/02	31.92			94.4		7.37			1.5
+		09/19/02	31.89			105.0		7.03			-7.0
+		10/03/02	NO POST CHECK DUE TO FAULTY CALIBRATION CONNECTOR...
+				(std-31.78ppt)
+		10/15/02	13.54			108.2		7.09			-6.7
+		10/31/02	32.12			117.8		6.99			0.5
+		11/12/02	31.61			88.1		7.00			0.0
+		12/04/02	31.08			110.3		6.93			0.0
+		01/08/03	32.02			71.3		6.98			-0.2
+		
+
+Site		Date		Salinity (ppt)	DO%		pH		Turbidity
+				(std-31.93ppt)	(std-air)   (std-7.0)	(std-0 NTU)
+MH	
+		02/19/02	32.19			103.4		6.97			-1.0
+		03/20/02	31.74			98.6		6.97			0.3	
+		04/09/02	31.54			99.8		7.05			0.3
+		04/29/02	31.93			73.7		6.95			0.1
+		05/15/02	29.20			98.7		6.85			6.3
+		05/29/02	32.95			106.2		6.90			3.5
+		06/12/02	30.91			72.1		6.90			2.3
+		06/26/02	31.74			106.5		6.98			0.0
+		07/10/02	30.91			94.0		6.94			0.3	
+		07/25/02	32.06			86.3		6.94			2.3
+		08/07/02	32.42			77.0		6.77			0.1
+		08/21/02	31.24			40.4		6.92			-0.8
+		09/06/02	31.74			87.0		6.89			-3.4
+		09/19/02	34.09			107.0		7.05			-1.2
+				(std-31.78ppt)
+		10/03/02	31.82			91.9		6.90			0.0	
+	
+		10/15/02	31.77			85.1		7.01			-2.0	
+		10/31/02	32.30			88.3		6.81			0.0
+		11/12/02	30.97			90.7		6.95			-0.2
+		12/04/02	30.86			99.2		6.80			0.0
+		01/08/03	31.78			117.1		6.90			0.0
+
+Site		Date		Salinity (ppt)	DO%		pH		Turbidity
+				(std-31.93ppt)	(std-air)	(std-7.0)	(std-0 NTU)
+CR		
+		06/12/02	31.52			93.4		6.95			17.3
+		06/26/02	32.15			98.4		6.97			0.2
+		07/10/02	32.05			67.2		6.96			6.6
+		07/26/02	32.64			109.5		6.79			-5.7
+		08/07/02	31.52			93.4		6.95			17.3
+		08/21/02	32.70			99.9		7.08			-13.8
+		09/06/02	31.87			100.9		7.01			-8.9
+		09/19/02	32.31			107.1		7.03			-12.0
+				(std-31.78ppt)
+		10/03/02	31.15			104.4		7.07			-1.7
+		10/15/02	31.51			106.8		7.01			-12.9
+		10/31/02	31.93			105.8		7.05			-0.1
+		11/12/02	32.24			104.2		7.04			-0.1
+		12/04/02	31.59			110.9		6.98			0.2
+		01/08/02	31.36			85.9		6.94			-0.2
+
+
+Site		Date		Salinity (ppt)	DO%		pH		Turbidity
+				(std-31.93ppt)	(std-air)	(std-7.0)	(std-0 NTU)
+SL		
+		05/30/02	31.84			90.3		7.02			3.4
+		06/12/02	31.76			87.1		6.91			3.6
+		06/26/02	32.10			90.8		6.98			1.7	
+		07/12/02	26.71			39.0		6.96			-1.0
+		07/25/02	31.95			90.4		6.87			0.3
+		08/07/02	32.16			103.7		7.00			-1.2
+		08/21/02	32.17			100.5		7.04			-2.9
+		09/10/02	32.25			85.6		7.04			1.8
+		09/19/02	32.17			100.5		7.04			-2.9
+				(std-31.78ppt)
+		10/03/02	31.62			96.1		6.97			1.1
+		10/15/02	31.99			119.8		6.99			0.2
+		10/31/02	32.09			103.0		7.00			-1.5
+		11/12/02	33.25			100.1		7.07			-0.1
+		12/04/02	31.88			113.8		6.80			0.0
+		12/10/02	32.2			101.5		6.95			-0.2
+		*NO DATA WAS COLLECTED AFTER 12/09/02
+
+14)	Other remarks/notes:
+
+On 07/01/2021 this dataset was updated to include embedded QAQC flags for anomalous/suspect data.  
+System-wide monitoring data beginning in 2007 were processed to allow for QAQC flags and codes to be 
+embedded in the data files rather than detailed in the metadata alone (as in the anomalous/suspect, 
+deleted, and missing data sections above).  Prior to 2006, rejected data were deleted from the dataset 
+so they are unavailable to be used at all, but suspect data were only noted in the metadata document.  
+Suspect data flags <1> were embedded retroactively in order to allow suspect data to be easily identified 
+and filtered from the dataset if desired for analysis and reporting purposes.  No other flags or codes 
+were embedded in the dataset and users should still refer to the detailed explanations above for more 
+information.
